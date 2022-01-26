@@ -131,7 +131,7 @@ class SignUpViewController: UIViewController {
                    print("Button was pressed")
                }))
                box4.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { action in
-                   print("OK is pressed")
+                   print("OK is pressed. Checking gitub versions")
                    self.emailTextField.text = ""
                }))
               self.present(box4, animated: true)
